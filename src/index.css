@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap');
 
 @import "tailwindcss";
@@ -11,7 +11,7 @@
   :root {
     --font-jaini-purva-regular: "Jaini Purva", system-ui;
     --font-caveat-brush-regular: "Caveat Brush", cursive;
-    --font-cherry-bomb-one-regular: "Cherry Bomb One", system-ui;
+    --font-chela-one-regular: "Chela One", system-ui;
     --font-chau-philomene-one-regular-italic: "Chau Philomene One", sans-serif;
   }
 
@@ -23,8 +23,8 @@
     font-family: var(--font-caveat-brush-regular);
   }
 
-  .font-cherry-bomb-one-regular {
-    font-family: var(--font-cherry-bomb-one-regular);
+  .font-chela-one-regular {
+    font-family: var(--font-chela-one-regular);
   }
 
   .font-chau-philomene-one-regular-italic {
