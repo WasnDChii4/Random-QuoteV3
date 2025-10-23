@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { RefreshCw, ShareIcon } from "lucide-react";
+import { RefreshCw, CopyIcon } from "lucide-react";
 
 export default function RandomQuote() {
   const [quote, setQuote] = useState({
@@ -68,8 +68,8 @@ export default function RandomQuote() {
           </button>
         </div>
         <div className="tooltip tooltip-bottom" data-tip="Share">
-          <button onClick={fetchQuote} disabled={loading} className=" mb-2 flex place-self-start gap-2 bg-[#f06230]/75 hover:bg-[#f97c2c]/50 disabled:bg-[#f06230]/25 px-4 py-2 rounded-lg transition-all duration-200 border border-[#f06230]/75 hover:border-[#f97c2c]/50">
-            <ShareIcon className="" />
+          <button className=" mb-2 flex place-self-start gap-2 bg-[#f06230]/75 hover:bg-[#f97c2c]/50 disabled:bg-[#f06230]/25 px-4 py-2 rounded-lg transition-all duration-200 border border-[#f06230]/75 hover:border-[#f97c2c]/50">
+            <CopyIcon className="" />
           </button>
         </div>
       </div>
