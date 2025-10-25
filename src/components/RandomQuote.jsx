@@ -101,7 +101,7 @@ export default function RandomQuote() {
           <span>{alert.message}</span>
         </div>
       )}
-      <div className="bg-[#1E1E2E]/75 w-11/12 flex flex-col p-3 md:p-7 rounded-xl backdrop-blur-xs shadow-lg shadow-[#1E1E2E] border border-white/15 m-4">
+      <div className="bg-[#1E1E2E]/75 w-11/12 p-3 md:p-7 rounded-xl backdrop-blur-xs shadow-lg shadow-[#1E1E2E] border border-white/15 m-4">
         <h1 className="text-2xl md:text-5xl font-jaini-purva-regular mb-2 md:mb-4">Anime Quote</h1>
         <div className="mb-6">
           <svg className="w-6 md:w-8 text-white/40" fill="currentColor" viewBox="0 0 24 24">
