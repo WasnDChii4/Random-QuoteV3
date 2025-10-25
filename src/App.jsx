@@ -8,7 +8,7 @@ export default function App() {
     <div className="hero min-h-screen" style={{backgroundImage: `url(${BackgroundYuruCamp})`}}>
       <div className="hero-overlay backdrop-blur-sm" />
       <img src={YuruCampLogo} alt="Yuru Camp Logo" className="z-10 w-4xl" />
-      <div className="hero-content z-10">
+      <div className="w-11/12 z-10">
         <RandomQuote />
       </div>
     </div>
