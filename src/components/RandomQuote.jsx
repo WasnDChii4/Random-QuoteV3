@@ -125,12 +125,12 @@ export default function RandomQuote() {
         </div>
         <div className="flex justify-between items-center w-full">
           <div className="tooltip tooltip-bottom" data-tip="New Quote">
-            <button onClick={fetchQuote} disabled={loading} className="mb-2 flex place-self-start gap-2 bg-[#f06230]/75 hover:bg-[#f97c2c]/50 disabled:bg-[#f06230]/25 px-4 py-2 rounded-lg transition-all duration-200 border border-[#f06230]/75 hover:border-[#f97c2c]/50">
+            <button onClick={fetchQuote} disabled={loading} className="mb-2 flex gap-2 bg-[#f06230]/75 hover:bg-[#f97c2c]/50 disabled:bg-[#f06230]/25 px-4 py-2 rounded-lg transition-all duration-200 border border-[#f06230]/75 hover:border-[#f97c2c]/50">
               <RefreshCw className={`w-4 ${loading ? 'animate-spin' : ''}`} />
             </button>
           </div>
           <div className="tooltip tooltip-bottom" data-tip="Copy">
-            <button onClick={handleCopy} className=" mb-2 flex place-self-start gap-2 bg-[#f06230]/75 hover:bg-[#f97c2c]/50 disabled:bg-[#f06230]/25 px-4 py-2 rounded-lg transition-all duration-200 border border-[#f06230]/75 hover:border-[#f97c2c]/50">
+            <button onClick={handleCopy} className=" mb-2 flex gap-2 bg-[#f06230]/75 hover:bg-[#f97c2c]/50 disabled:bg-[#f06230]/25 px-4 py-2 rounded-lg transition-all duration-200 border border-[#f06230]/75 hover:border-[#f97c2c]/50">
               <CopyIcon />
             </button>
           </div>
